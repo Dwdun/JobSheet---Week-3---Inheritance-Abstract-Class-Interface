@@ -4,7 +4,7 @@ public class Shape {
 
     //constructor tanpa parameter
     public Shape(){
-        this.color = "red";
+        this.color = "green";
         this.filled = true;
     }
 
@@ -34,7 +34,8 @@ public class Shape {
         this.filled = filled;
     }
 
+    //output
     public String toString(){
-        return "Shape [ color = " + getColor() + ",filled = " + isFilled() + " ]"; 
+        return "A Shape with color of " + getColor() + " and filled " + isFilled();
     }
 }
