@@ -36,6 +36,6 @@ public class Shape {
 
     //output
     public String toString(){
-        return "A Shape with color of " + getColor() + " and filled " + isFilled();
+        return "A Shape with color of " + getColor() + " and filled " + (isFilled() ? "filled" : "Not filled");
     }
 }
