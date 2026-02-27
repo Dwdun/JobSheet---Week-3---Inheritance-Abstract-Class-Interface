@@ -44,6 +44,6 @@ public class Square extends Rectangle{
     //output
     @Override
     public String toString(){
-        return "A Square with side = " + getSide() + "which is a subclass of" + super.toString();
+        return "A Square with side = " + getSide() + " which is a subclass of " + super.toString();
     }
 }

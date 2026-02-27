@@ -40,6 +40,6 @@ public class Circle extends Shape {
     //output
     @Override
     public String toString(){
-        return "A Circle with radius = " + getRadius() + "which is a subclass of" + super.toString();
+        return "A Circle with radius = " + getRadius() + " which is a subclass of " + super.toString();
     }
 }

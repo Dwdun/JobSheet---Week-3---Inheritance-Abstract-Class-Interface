@@ -16,7 +16,7 @@ public class Cylinder extends Circle {
       this.height = height;
    }
 
-   //constructor kedua
+   //constructor ketiga
    public Cylinder(double radius, double height) {
       super(radius);
       this.height = height;
